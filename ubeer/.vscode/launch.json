@@ -1,0 +1,160 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch clientesView",
+            "request": "launch",
+            "mainClass": "views.clientesView",
+            "projectName": "ubeer2_3bd8caa1"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploBotoes",
+            "request": "launch",
+            "mainClass": "Exemplos.ExemploBotoes",
+            "projectName": "ubeer2_3bd8caa1"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploJanelaExtendida",
+            "request": "launch",
+            "mainClass": "Exemplos.ExemploJanelaExtendida",
+            "projectName": "ubeer2_3bd8caa1"
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClientesDAO",
+            "request": "launch",
+            "mainClass": "DAOs.ClientesDAO",
+            "projectName": "ubeer2_3bd8caa1"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploClasseChamaJanela",
+            "request": "launch",
+            "mainClass": "Exemplos.ExemploClasseChamaJanela",
+            "projectName": "ubeer2_3bd8caa1"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploComboBairro",
+            "request": "launch",
+            "mainClass": "Exemplos.ExemploComboBairro",
+            "projectName": "ubeer2_3bd8caa1"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploComboBox",
+            "request": "launch",
+            "mainClass": "Exemplos.ExemploComboBox",
+            "projectName": "ubeer2_3bd8caa1"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploGridBagLayout",
+            "request": "launch",
+            "mainClass": "Exemplos.ExemploGridBagLayout",
+            "projectName": "ubeer2_3bd8caa1"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploJScrollPane",
+            "request": "launch",
+            "mainClass": "Exemplos.ExemploJScrollPane",
+            "projectName": "ubeer2_3bd8caa1"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploJTable",
+            "request": "launch",
+            "mainClass": "Exemplos.ExemploJTable",
+            "projectName": "ubeer2_3bd8caa1"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploJTextField",
+            "request": "launch",
+            "mainClass": "Exemplos.ExemploJTextField",
+            "projectName": "ubeer2_3bd8caa1"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploJanela",
+            "request": "launch",
+            "mainClass": "Exemplos.ExemploJanela",
+            "projectName": "ubeer2_3bd8caa1"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemplodePanel",
+            "request": "launch",
+            "mainClass": "Exemplos.ExemplodePanel",
+            "projectName": "ubeer2_3bd8caa1"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteSimplesCliente",
+            "request": "launch",
+            "mainClass": "Testes.Cliente.TesteSimplesCliente",
+            "projectName": "ubeer2_3bd8caa1"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteSimplesPagamento",
+            "request": "launch",
+            "mainClass": "Testes.Pagamento.TesteSimplesPagamento",
+            "projectName": "ubeer2_3bd8caa1"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidaCliente",
+            "request": "launch",
+            "mainClass": "Validacoes.ValidaCliente",
+            "projectName": "ubeer2_3bd8caa1"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClienteView",
+            "request": "launch",
+            "mainClass": "views.ClienteView",
+            "projectName": "ubeer2_3bd8caa1"
+        }
+    ]
+}
